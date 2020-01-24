@@ -1,7 +1,15 @@
 let canvas;
+let select;
+let askButton;
+let check;
 
 function setup(){
-  canvas = createCanvas(600, 600);
+  canvas = createCanvas(windowWidth, windowHeight);
+  background(160);
+
+  select = createSelect();
+  select.option("One");
+  select.option("Two")
 }
 
 function draw(){
