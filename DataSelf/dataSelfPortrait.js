@@ -7,8 +7,6 @@ let moodNeutral;
 let moodSad;
 
 let horoscopeTxt;
-let r //RANDOM NUMBER
-let r1
 
 let start;
 //interface images
@@ -69,7 +67,7 @@ function setup(){
   startButton.mousePressed(initStart);
 
   //print(selfData.zodiacData);
-  let horoscopeTxt = str(random(selfData.zodiacData));
+  horoscopeTxt = (random(selfData.zodiacData));
   print(horoscopeTxt);
 }
 
@@ -94,13 +92,13 @@ function initStart(){
   moodSad.position(windowWidth/2+50,windowHeight/1.5)
   moodSad.mousePressed(cheerUp);
 
-  r = random(0,64)
-
-  createElement("h1", selfData.zodiacData[r]);
+  //createElement("h1", horoscopeTxt);
 }
 
 function addMore(){
-
+  createElement("h1", horoscopeTxt);
+  horoscopeTxt = (random(selfData.zodiacData));
+  redraw();
 }
 function cheerUp(){
   r1 = int(random(10));
@@ -140,14 +138,6 @@ function draw(){
     rotateX(frameCount * 0.01);
     texture(birthMap);
     sphere(200,200,200);
-
-
-
-
-    //rotateX(frameCount * 0.01);
-    //rotateY(frameCount * 0.01);
-    //normalMaterial();
-    //box(250);
 
   } else {
     rotateY(frameCount * 0.01);

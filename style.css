@@ -10,4 +10,6 @@ div{
 }
 h1{
   color: white;
+  z-index: 6;
+  text-shadow: 1px 1px black;
 }
