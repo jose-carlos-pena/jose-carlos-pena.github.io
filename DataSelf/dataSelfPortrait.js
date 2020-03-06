@@ -146,3 +146,27 @@ function draw(){
     sphere(200, 200, 200);
   }
 }
+
+function windowResized(){
+  resizeCanvas(windowWidth, windowHeight)
+}
+
+
+//notes
+//Kevin
+//Tabita Rezaire
+
+//random horoscope
+//confusing coming from your star alignment
+//poetics of remote orb a sense of lonelesiness
+//Referencing google maps
+//Non-resolved
+//Non-site
+//sense of perspective
+//Orbital controls
+//Simple navigation
+//Interesting pictures of my iconography, Where I was born, emotionallality of the zodiac.
+//Showing a timeline, reflection && seeing
+//More & more collect ovr time, geographical data, correalated with a changing texture
+//Horoscopes are different in different places???
+//Boundaries of systems & mysticism
