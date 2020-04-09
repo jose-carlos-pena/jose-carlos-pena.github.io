@@ -1,0 +1,47 @@
+#header {
+  color: #0d2b45;
+  font-size: 17pt;
+  font-family: 'Overpass Mono', monospace;
+  width: 200px;
+  height: auto;
+}
+#sidebar{
+  font-size: 12pt;
+  font-family: 'Overpass Mono', monospace;
+  width: 200px;
+  float:left;
+  clear:left;
+
+}
+#exhibit{
+  color: #0d2b45;
+  position: relative;
+  top: -100px;
+  font-size: 10pt;
+  font-family: 'Overpass Mono', monospace;
+  max-width: 1024px;
+  clear: right;
+  overflow: auto;
+  padding-left: 10px;
+}
+
+body {
+  background-color: #d8bfd8;
+  color: #544e68;
+}
+a:link{
+  color: #544e68;
+  text-decoration:  none;
+}
+a:visited{
+  color: #544e68;
+  text-decoration: none;
+}
+a:hover{
+  color: #74569b;
+  text-decoration:  none;
+}
+a:active{
+  color: #74569b;
+  text-decoration: none;
+}
