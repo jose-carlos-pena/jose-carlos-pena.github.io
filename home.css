@@ -25,31 +25,9 @@
   overflow: auto;
   padding-left: 10px;
 }
-#textSL{
-  color: #73464c;
-  position: absolute;
-  left: 1%;
-  max-width:500px;
-}
-#excessVid{
-  color: #73464c;
-  position: absolute;
-  top: 319px;
-  left: 305px;
-}
-#textExcess{
-  color: #73464c;
-  position: relative;
-  left: 1%;
-  max-width: 500px;
-}
-#sungif{
-  position: relative;
-  top: -400px;
-  left: 65%;
-}
+
 body {
-  background-color: #FDF3F5;
+  background-color: #ffd9f5;
   color: #73464c;
 }
 a:link{
