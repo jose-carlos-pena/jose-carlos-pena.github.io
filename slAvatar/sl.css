@@ -26,7 +26,7 @@
 }
 #textSL{
   color: #0d2b45;
-  position: absolute;
+  position: relative;
   left: 1%;
   max-width:500px;
 }
