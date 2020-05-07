@@ -1,0 +1,26 @@
+body {
+  background-color :  #f0d4ff;
+  color: #a4215a  }
+
+a:link{
+  color: #a4215a;
+  text-decoration:  none;
+}
+a:visited{
+  color: #a4215a;
+  text-decoration: none;
+}
+a:hover{
+  color: #a4215a;
+  text-decoration:  none;
+}
+a:active{
+  color: #a4215a;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Symbola';
+  src: url('fonts/Symbola.odt');
+  src: url('Symbola.otf');
+}

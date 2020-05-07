@@ -26,6 +26,23 @@
   padding-left: 10px;
 }
 
+
+  /* mobile friendliness :-) */
+@media only screen and (max-width 768px) {
+    #header{
+      width: 150%;
+      font-size:150%;
+    }
+    #sidebar{
+      width: 150%;
+      font-size:150%;
+      float:none;
+      clear:none;
+    }
+    #exhibit{
+      width: auto;
+    }
+
 body {
   background-color: #ffd9f5;
   color: #73464c;
