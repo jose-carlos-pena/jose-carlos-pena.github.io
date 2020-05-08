@@ -2,23 +2,23 @@ body {
   background-color :  #f0d4ff;
   color: #a4215a  }
 window {
-  
+
 }
 a:link{
   color: #a4215a;
-  text-decoration:  none;
+  text-decoration:  underline;
 }
 a:visited{
   color: #a4215a;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover{
   color: #a4215a;
-  text-decoration:  none;
+  text-decoration:  underline;
 }
 a:active{
   color: #a4215a;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 @font-face {
