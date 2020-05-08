@@ -15,9 +15,6 @@ function setup(){
   button.position(70,230)
   button.mousePressed(sendTxt)
 
-  const info = model.info();
-  console.log(info);
-
   const awake = model.isAwake();
   console.log(awake);
 }
