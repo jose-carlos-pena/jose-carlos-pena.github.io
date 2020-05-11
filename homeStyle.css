@@ -42,9 +42,10 @@
     #exhibit{
       width: auto;
     }
+  }
 
 body {
-  background-color: #ffd9f5;
+  background-color: #FFD9F5;
   color: #73464c;
 }
 a:link{
